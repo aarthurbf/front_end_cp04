@@ -7,4 +7,4 @@ function Produtos() {
     )
   }
   
-  export default Produtos
+  export default Produtos;

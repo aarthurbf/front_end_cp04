@@ -1,0 +1,90 @@
+.banner{
+    background: url(../assets/scott-webb-U5kQvbQWoG0-unsplash.jpg);
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.banner h2{
+    margin: 1.25rem 0;
+    font-size: 3rem;
+    color: var(--color1);
+}
+
+.banner h3{
+    font-size: 1.5rem;
+    color: var(--color1);
+}
+
+.banner .btn{
+    margin-top: 1.25rem;
+    background: var(--color2);
+    border: 1px solid var(--color2);
+    border-radius: 0.25rem;
+    color: var(--color1);
+    padding: 1.25rem 3.12rem;
+    text-align: center;
+    font-weight: 900;
+    transition: .5s;
+    font-size: 0.9rem;
+}
+
+.banner .btn:hover{
+    background: transparent;
+    color: var(--color2);
+}
+
+.informacoes{
+    background: var(--color2);
+    color: var(--color1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 6.25rem 3.12rem;
+    text-align: center;
+}
+
+.informacoes h3{
+    font-size: 2rem;
+    margin-bottom: 2.1rem;
+}
+
+.informacoes p{
+    max-width: 50rem;
+    margin-bottom: 2.1rem;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.informacoes hr{
+    width: 12rem;
+    height: 2px;
+    background: var(--color1);
+    margin-bottom: 4.3rem;
+    border: none;
+}
+
+.informacoes .item{
+    width: 100%;
+    display: flex;
+}
+
+.informacoes .item li{
+    padding: 0 1.8rem;
+    text-align: center;
+}
+
+.informacoes .item li h4{
+    color: var(--color1);
+    font-size: 1.5rem;
+    margin-bottom: 1.8rem;
+}
+
+.informacoes .item li p{
+    font-size: 1.2rem;
+    margin-bottom: 1.8rem;
+}

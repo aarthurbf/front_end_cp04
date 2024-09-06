@@ -7,4 +7,4 @@ function Sobre() {
     )
   }
   
-  export default Sobre
+  export default Sobre;
