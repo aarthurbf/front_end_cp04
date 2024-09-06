@@ -1,12 +1,12 @@
-section{
+.Footer{
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    justify-content: center;
+    text-align: center;
     background: var(--color2);
     padding: 3.1rem 0;
 }
 
-section p{
+.Footer p{
     color: var(--color1);
     text-align: center;
 }

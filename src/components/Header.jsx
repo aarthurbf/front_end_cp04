@@ -3,7 +3,7 @@ function Header() {
 
     return (
         <>
-            <section>
+            <section className="Header">
                 <h1><a href="">GoAthlete</a></h1>
                 <nav class="header-menu">
                     <ul>

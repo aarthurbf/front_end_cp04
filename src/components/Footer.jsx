@@ -4,7 +4,7 @@ function Footer() {
 
   return (
     <>
-      <section>
+      <section className="Footer">
         <p>Todos os direitos reservados</p>
       </section>
     </>
