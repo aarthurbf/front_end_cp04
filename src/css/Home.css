@@ -1,4 +1,4 @@
-.banner{
+.banner {
     background: url(../assets/scott-webb-U5kQvbQWoG0-unsplash.jpg);
     background-size: cover;
     min-height: 100vh;
@@ -9,18 +9,18 @@
     text-align: center;
 }
 
-.banner h2{
+.banner h2 {
     margin: 1.25rem 0;
     font-size: 3rem;
     color: var(--color1);
 }
 
-.banner h3{
+.banner h3 {
     font-size: 1.5rem;
     color: var(--color1);
 }
 
-.banner .btn{
+.banner .btn {
     margin-top: 1.25rem;
     background: var(--color2);
     border: 1px solid var(--color2);
@@ -33,12 +33,12 @@
     font-size: 0.9rem;
 }
 
-.banner .btn:hover{
+.banner .btn:hover {
     background: transparent;
     color: var(--color2);
 }
 
-.informacoes{
+.informacoes {
     background: var(--color2);
     color: var(--color1);
     display: flex;
@@ -48,19 +48,19 @@
     text-align: center;
 }
 
-.informacoes h3{
+.informacoes h3 {
     font-size: 2rem;
     margin-bottom: 2.1rem;
 }
 
-.informacoes p{
+.informacoes p {
     max-width: 50rem;
     margin-bottom: 2.1rem;
     font-size: 1.2rem;
     text-align: center;
 }
 
-.informacoes hr{
+.informacoes hr {
     width: 12rem;
     height: 2px;
     background: var(--color1);
@@ -68,23 +68,38 @@
     border: none;
 }
 
-.informacoes .item{
+.informacoes .item {
     width: 100%;
     display: flex;
 }
 
-.informacoes .item li{
+.informacoes .item li {
     padding: 0 1.8rem;
     text-align: center;
 }
 
-.informacoes .item li h4{
+.informacoes .item li h4 {
     color: var(--color1);
     font-size: 1.5rem;
     margin-bottom: 1.8rem;
 }
 
-.informacoes .item li p{
+.informacoes .item li p {
     font-size: 1.2rem;
     margin-bottom: 1.8rem;
+}
+
+/*Responsividade*/
+@media (max-width: 700px) {
+    .banner {
+        margin-top: 3.1rem;
+    }
+
+    .banner h1 {
+        font-size: 2.3rem;
+    }
+
+    .banner h3 {
+        font-size: 1.3rem;
+    }
 }
