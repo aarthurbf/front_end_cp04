@@ -11,7 +11,7 @@ function Home() {
       <section className="banner">
         <h2>Venha conhecer os nossos produtos</h2>
         <h3>Lorem ipsum dolor sit amet.</h3>
-        <a href="" className="btn">Informações</a>
+        <a href="" className="btn">Conheça agora</a>
       </section>
 
       {/* SERVIÇOS */}
