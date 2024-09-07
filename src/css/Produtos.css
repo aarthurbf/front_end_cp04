@@ -1,0 +1,60 @@
+.btn{
+    background-color: var(--color2);
+    border: 2px solid var(--color2);
+    padding: 8px 0.9rem;
+    border-radius: 5px;
+    color: var(--color1);
+    transition: var(--transition);
+}
+.btn:hover{
+    background: transparent;
+    color: var(--color2);
+}
+.produto-title{
+    font-size: 5vmin;
+    text-align: center;
+    margin: 2.5rem 0 2rem;
+    color: var(--color2);
+}
+.produto-list{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.produto-item{
+    width: 20%;
+    margin: 3rem 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    box-shadow: 1px 1px 30px darkgray ;
+    border-radius: 5px;
+    transition: var(--transition);
+}
+.produto-item:hover{
+    transform: scale(1.1);
+}
+
+.produto-item img{
+    width: 100%;
+    border-radius: 5px;
+}
+.produto-item h3{
+    margin: 2rem 0;
+    font-weight: 800;
+}
+.produto-item p{
+    margin: 0 0 1.5rem;
+    width: 80%;
+}
+
+.vejaMais{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+}

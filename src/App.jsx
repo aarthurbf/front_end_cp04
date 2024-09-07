@@ -1,6 +1,7 @@
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Home from "./routes/Home";
+import Produtos from "./routes/Produtos";
 import "./css/Global.css";
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
     <>
       <Header/>
       <Home/>
+      <Produtos/>
       <Footer/>
     </>
   )
