@@ -27,6 +27,11 @@ a{
     gap: 1.25rem;
 }
 
+.header-menu li a:hover{
+    border-bottom: solid 2px var(--color2);
+    transition: .5s;
+}
+
 .header-menu a{
     color: var(--color2);
     font-weight: 900;

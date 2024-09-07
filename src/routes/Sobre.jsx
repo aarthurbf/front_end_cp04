@@ -1,23 +1,27 @@
 import "../css/Sobre.css";
+import imageSobre from "../assets/sobre-image.jpg";
 
 function Sobre() {
 
-    return (
-      <>
+  return (
+    <>
+      <div className="heading-sobre">
+        <h1>Sobre Nós</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae praesentium, veniam modi rem tempore a. Porro minus nisi veniam deleniti harum asperiores quae voluptatem dolorum reprehenderit rem eaque temporibus, consectetur quas a provident. Ea, veritatis ex! Soluta, voluptatum veniam asperiores, quisquam, ex maiores vero ratione aut harum impedit iusto dicta?</p>
+      </div>
+      <div className="container-sobre">
         <section className="sobre">
-          <h3>Sobre nós</h3>
-        <img src="" alt="" />
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi maiores nihil sequi vel nulla eum laudantium consequatur nemo non, nesciunt inventore sed doloribus possimus ratione sapiente ducimus perspiciatis harum provident.
-        Quia maxime facere molestias itaque nobis magni? Numquam laboriosam ullam voluptatum assumenda deserunt voluptates, vitae earum aspernatur quo et! Quae ducimus vel ullam, ut nisi eveniet obcaecati illum laborum. Ipsam.
-        Temporibus iusto aperiam hic molestias tempore? Eveniet veritatis et sequi doloremque, necessitatibus dicta magnam voluptatum harum ea qui, autem cumque assumenda ducimus. Ea labore sit vero velit aliquam earum provident!
-        Natus sed illo distinctio tenetur facilis voluptatum deleniti mollitia. Adipisci sapiente nam suscipit temporibus aspernatur reprehenderit, possimus repudiandae totam saepe laborum culpa alias error sint hic ad magnam tenetur necessitatibus!
-        Delectus totam, odio obcaecati veritatis eius rerum ipsum magnam expedita nobis tempore culpa nulla voluptatum atque consequuntur harum labore rem enim error ex, nam, voluptatibus voluptatem recusandae! Dolore, enim ea?
-        Hic dolores iure cum sed ad cupiditate rerum, eos doloribus corrupti aut, dolorum natus pariatur repellat! Iste, rerum, accusamus culpa aliquid qui cupiditate nihil nesciunt adipisci voluptas maxime praesentium quae.
-        Rerum ipsum reprehenderit error explicabo facere quo, cupiditate optio cum ea quae suscipit! Atque quas ab nam cupiditate eum ipsam vero quod laboriosam cumque perspiciatis sed culpa minus, impedit laborum?
-        Ullam unde debitis officiis quibusdam amet. Vero doloribus rerum sequi sit! Dolore recusandae praesentium laborum adipisci sit consequatur dicta saepe? Sunt atque reprehenderit doloribus sequi adipisci, itaque odio veritatis error?</p>
+          <div className="sobre-img">
+            <img src={imageSobre} alt="" />
+          </div>
+          <div className="sobre-content">
+            <h2>Nossa História</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam officiis sint praesentium facilis natus fugit vitae sed mollitia velit iure, deserunt hic asperiores voluptatum ullam vero dolorem nihil. Optio quam ex doloremque. Amet, esse id eaque culpa obcaecati voluptates ut non tempora blanditiis molestiae aliquid, fuga debitis error, magni aliquam?</p>
+          </div>
         </section>
-      </>
-    )
-  }
-  
-  export default Sobre;
+      </div>
+    </>
+  )
+}
+
+export default Sobre;
