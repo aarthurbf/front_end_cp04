@@ -60,14 +60,24 @@
 }
 
 @media screen and (max-width: 768px) {
-    .produto-item {
-      width: calc(50% - 20px);
+    .produto-list {
+        grid-template-columns: repeat(2, 1fr); 
     }
+
+    .produto-item{
+        width: 25rem;
+    }
+
   }
   
   @media screen and (max-width: 480px) {
-    .produto-item {
-      width: 100%;
+    .produto-list {
+        grid-template-columns: repeat(1, 1fr); 
+    }
+
+    .produto-item{
+        width: 20rem;
+        margin: 5rem;
     }
   }
 
