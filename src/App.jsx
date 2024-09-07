@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import Header from './components/Header';
+import Footer from './components/Footer';
 import Home from './routes/Home';
 import Produtos from './routes/Produtos';
 import Contato from './routes/Contato';
@@ -30,6 +31,7 @@ function App() {
             <main>
                 {renderPage()}
             </main>
+            <Footer />
         </div>
     );
 }
