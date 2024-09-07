@@ -1,4 +1,7 @@
 import "../css/Home.css";
+import EntregaIcon from "../assets/estoque-pronto.png"
+import VariedadeIcon from "../assets/caixas.png"
+import DescontoIcon from "../assets/desconto.png"
 
 function Home() {
 
@@ -15,21 +18,24 @@ function Home() {
       <section className="informacoes">
         <h3>Vantagens</h3>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta, velit.</p>
-        <hr/>
-          <ul className="item">
-            <li>
-              <h4>Entrega</h4>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit cupiditate atque aspernatur quam vel amet.</p>
-            </li>
-            <li>
-              <h4>Ofertas</h4>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit cupiditate atque aspernatur quam vel amet.</p>
-            </li>
-            <li>
-              <h4>Variedade</h4>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit cupiditate atque aspernatur quam vel amet.</p>
-            </li>
-          </ul>
+        <hr />
+        <ul className="item">
+          <li>
+            <img src={EntregaIcon} alt="" className="icon-home" />
+            <h4>Entrega</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit cupiditate atque aspernatur quam vel amet.</p>
+          </li>
+          <li>
+            <img src={DescontoIcon} alt="" className="icon-home" />
+            <h4>Ofertas</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit cupiditate atque aspernatur quam vel amet.</p>
+          </li>
+          <li>
+            <img src={VariedadeIcon} alt="" className="icon-home" />
+            <h4>Variedade</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit cupiditate atque aspernatur quam vel amet.</p>
+          </li>
+        </ul>
       </section>
     </>
   )
