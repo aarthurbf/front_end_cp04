@@ -1,4 +1,11 @@
-# GoAthlete - Loja de Esportes
+# CheckPoint 4 - Front End
+Integrantes
+- Arthur Bobadilla Franchi (555056)
+- Luan Orlandelli Ramos (554747)
+- Igor Nascimento Medeiros (555337)
+- Jorge Luiz Silva Santos (554418)
+
+## GoAthlete - Loja de Esportes
 
 Esta é uma aplicação web para uma loja de esportes chamada **GoAthlete**. Foi desenvolvida utilizando React e faz uso de conceitos básicos de HTML e CSS. O projeto apresenta um layout simples e moderno, responsivo para diferentes tamanhos de tela, com seções como produtos, contato e vantagens oferecidas pela loja.
 
