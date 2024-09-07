@@ -46,7 +46,6 @@ function Home() {
       <section className="testimonials">
         <div className="inner">
           <h1>Avaliações</h1>
-          <div className="border"></div>
           <div className="row">
             <div className="col">
               <div className="testimonial">
@@ -87,7 +86,6 @@ function Home() {
                 <img src={FaceThree} alt="" />
                 <div className="name">Lucas</div>
                 <div className="stars">
-                  <img src={Estrela} alt="" />
                   <img src={Estrela} alt="" />
                   <img src={Estrela} alt="" />
                   <img src={Estrela} alt="" />
