@@ -47,6 +47,13 @@
     cursor: pointer;
 }
 
+.cadastro form button:hover{
+    background: transparent;
+    border: 3px solid var(--color2);
+    color: var(--color2);
+    transition: 0.5s;
+}
+
 
 @media screen and (max-width: 425px) {
     .cadastro{
